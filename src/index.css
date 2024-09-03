@@ -11,6 +11,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* telegram mini app style  */
+  --telegram-color: #0088cc;
+  --telegram-color-dark: #005580;
+  --telegram-color-light: #00a1ff;
 }
 
 a {

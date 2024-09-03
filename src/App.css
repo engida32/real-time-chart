@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+/* set telegram dynamic theme for telegram mini app */
+:root {
+  --telegram-color: #0088cc;
+  --telegram-color-dark: #005580;
+  --telegram-color-light: #00a1ff;
+}
