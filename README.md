@@ -14,7 +14,7 @@ Make sure you have the following installed on your machine:
 To clone the repository, run the following command in your terminal:
 
 ```
-git clone https://github.com/your-username/crypto-chart.git
+git clone https://github.com/engida32/real-time-chart.git
 ```
 
 ## Install Dependencies
@@ -46,10 +46,6 @@ yarn build
 
 This will create an optimized build of the app in the `build` directory.
 
-## Contributing
+## Screenshots
 
-If you would like to contribute to this project, please follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+![Alt text](/src/assets/screenshot.png?raw=true "Optional Title")
