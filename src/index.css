@@ -15,6 +15,9 @@
   --telegram-color: #0088cc;
   --telegram-color-dark: #005580;
   --telegram-color-light: #00a1ff;
+  --tg-theme-text-color: #000000;
+  --tg-theme-secondary-bg-color: #f5f5f5;
+  --tg-theme-bg-color: #ffffff;
 }
 
 a {
