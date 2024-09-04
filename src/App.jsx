@@ -109,16 +109,16 @@ const App = () => {
       },
     },
 
-    theme: {
-      mode: "light",
-      palette: "palette1",
-      monochrome: {
-        enabled: true,
-        color: "#255aee",
-        shadeTo: "light",
-        shadeIntensity: 0.65,
-      },
-    },
+    // theme: {
+    //   mode: "light",
+    //   palette: "palette1",
+    //   monochrome: {
+    //     enabled: true,
+    //     color: "#255aee",
+    //     shadeTo: "light",
+    //     shadeIntensity: 0.65,
+    //   },
+    // },
   };
 
   useEffect(() => {
