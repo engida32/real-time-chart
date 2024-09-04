@@ -49,3 +49,7 @@ This will create an optimized build of the app in the `build` directory.
 ## Screenshots
 
 ![Alt text](/src/assets/screenshot.png?raw=true "Optional Title")
+
+# Telegram Mini App link
+
+https://t.me/cryptolivechatbot/livecryptochart

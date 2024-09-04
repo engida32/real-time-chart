@@ -44,6 +44,22 @@ const App = () => {
     chart: {
       type: "candlestick",
       redrawOnWindowResize: true,
+      zoom: {
+        enabled: true,
+        type: "x",
+        autoScaleYaxis: false,
+        zoomedArea: {
+          fill: {
+            color: "#90CAF9",
+            opacity: 0.4,
+          },
+          stroke: {
+            color: "#0D47A1",
+            opacity: 0.4,
+            width: 1,
+          },
+        },
+      },
       toolbar: {
         show: true,
         tools: {
@@ -81,14 +97,14 @@ const App = () => {
 
       labels: {
         datetimeUTC: false,
+        style: {
+          colors: "#B99470",
+        },
       },
     },
     yaxis: {
       tooltip: {
         enabled: true,
-      },
-      style: {
-        colors: "#ffffff",
       },
 
       show: screenWidth > 768,
@@ -97,10 +113,8 @@ const App = () => {
         formatter: function (value) {
           return value.toFixed(2);
         },
-
         style: {
-          colors: "#ffffff",
-          fontSize: "12px",
+          colors: "#B99470",
         },
       },
     },
@@ -146,14 +160,16 @@ const App = () => {
 
   return (
     <div>
-      <h1>Candlestick Chart</h1>
+      <h3>Candlestick Chart</h3>
       <ReactApexChart
         options={chartOptions}
         series={[{ data: candlestickData }]}
         type="candlestick"
         height={550}
       />
-      <p>Click on the chart to simulate a bullish candlestick</p>
+      <p style={{ color: "#FCF8F3" }}>
+        Click on the chart to simulate a bullish candlestick
+      </p>
     </div>
   );
 };
