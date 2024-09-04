@@ -87,12 +87,20 @@ const App = () => {
       tooltip: {
         enabled: true,
       },
+      style: {
+        colors: "#ffffff",
+      },
 
       show: screenWidth > 768,
       labels: {
         show: screenWidth > 768,
         formatter: function (value) {
           return value.toFixed(2);
+        },
+
+        style: {
+          colors: "#ffffff",
+          fontSize: "12px",
         },
       },
     },
