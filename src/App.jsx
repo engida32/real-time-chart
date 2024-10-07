@@ -160,7 +160,7 @@ const App = () => {
 
   return (
     <div>
-      <h3>Candlestick Chart</h3>
+      <h3>Test oct 7</h3>
       <ReactApexChart
         options={chartOptions}
         series={[{ data: candlestickData }]}
